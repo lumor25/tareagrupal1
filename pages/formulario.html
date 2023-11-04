@@ -9,9 +9,29 @@
     
     <h1>Formulario de contacto</h1>
     <form action="">
-        <label for="nombre">Nombre: </label>
-        <input type="text">
+        <label for="nombre">Nombre: </label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="apellido">Apellido: </label><br>
+        <input type="text" id="apellido" name="apellido" autofocus><br>
+
+        <label for="dni">DNI: </label><br>
+        <input type="number" id="dni" name="dni" min="8"><br>
+
+        <label for="password">Password: </label><br>
+        <input type="password" id="password" name="password" minlength="5"><br>
+
+        <label for="email">Email: </label><br>
+        <input type="text" id="email" name="email" placeholder="pepe@gmail.com"><br>
+
+        <input type="submit" value="Enviar Datos"><br>
+
+        <button>
+            Envio data con button
+        </button><br>
     </form>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxnOc8ThwdsTbuXXvdbq-5b5bMiohMQWdiSw&usqp=CAU" alt="Messi Argentina">
 
 </body>
 </html>
